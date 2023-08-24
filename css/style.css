@@ -1,3 +1,68 @@
-#aksjd {
-  padding: 30px;
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+#title {
+  text-align: center;
+  margin: 2rem 2rem 0.5rem;
+  font-size: 2.5rem;
+}
+
+#add-item {
+  width: 100%;
+  text-align: center;
+}
+#add-item h2 {
+  padding: 1rem;
+  color: rgb(8, 131, 118);
+}
+#add-item form {
+  text-align: left;
+  width: 70%;
+  margin: 0rem auto 1rem;
+}
+#add-item form #name {
+  width: 85%;
+}
+#add-item form #date {
+  width: 40%;
+}
+#add-item form #amount {
+  width: 35%;
+}
+#add-item form input {
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0.4rem 0.5rem;
+}
+#add-item #add {
+  text-decoration: none;
+  color: rgb(245, 250, 248);
+  background-color: rgb(8, 131, 118);
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+}
+
+#table {
+  width: 70%;
+  text-align: center;
+  margin: 2rem auto 1rem;
+}
+#table table {
+  width: 100%;
+  border: 1px solid #b8cdc5;
+  border-collapse: collapse;
+}
+#table table tr th {
+  padding: 0.5rem;
+  border: 1px solid #b8cdc5;
+}
+#table table tr td {
+  padding: 0.5rem;
+  background-color: rgb(231, 233, 233);
+  border: 1px solid #b8cdc5;
 }
