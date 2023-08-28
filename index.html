@@ -22,36 +22,45 @@
             <label for="name">Name :</label>
             <input type="text" name="name" id="name"><br>
 
-            
-                <label for="date">Date :</label>
-                <input type="date" name="date" id="date">
-           
-            
-            
-                <label for="amount">Amount :</label>
-                <input type="text" name="amount" id="amount">
-           
+
+            <label for="date">Date :</label>
+            <input type="date" name="date" id="date">
+
+
+
+            <label for="amount">Amount :</label>
+            <input type="text" name="amount" id="amount">
+
         </form>
-        <a id="add" href="#">Add Expense</a>
+        <a id="add" href="#">Add Expense</a> 
+        <a class="hide" id="update" href="#">Update</a>
 
     </div>
 
     <div id="table">
         <table>
-            <tr>
-                <th>Name</th>
-                <th>Date</th>
-                <th>Amount</th>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Amount</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="item">
+                <td colspan="4">No expense added yet!</td>
 
             </tr>
-            <tr>
-                <td colspan="3">No expense added yet!</td>
+                
+            </tbody>
 
-            </tr>
         </table>
     </div>
 
 
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 
     <script src="js/javascript.js"></script>
 </body>
